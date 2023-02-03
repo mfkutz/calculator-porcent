@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- caja principal -->
+  <div class="main">
+
+    <!-- entradas -->
+    <div class="a">
+      <div class="text-title">Bill</div>
+      <input type="text" class="input-amount" placeholder="0" maxlength="20" value="0" id="input-amount">
+      <div class="text-title select-tip">Select Tip %</div>
+      <div class="btns">
+        <button class="btn-porcent five-porcent" id="five-porcent">5%</button>
+        <button class="btn-porcent ten-porcent" id="ten-porcent">10%</button>
+        <button class="btn-porcent fifteen-porcent" id="fifteen-porcent">15%</button>
+      </div>
+      <div class="btns">
+        <button class="btn-porcent twenty-five-porcent" id="twenty-five-porcent">25%</button>
+        <button class="btn-porcent fifty-porcent" id="fifty-porcent">50%</button>
+        <input type="number" class="input-custom" maxlength="3" placeholder="Custom" id="input-custom" >
+      </div>
+      <div class="text-title number-people">Number of People</div>
+      <input type="text" class="input-people" value="1" id="input-people">
+      <div class="people-relative">
+        <img src="./images/icon-person.svg" alt="person" class="icon-person">
+        <img src="./images/icon-dollar.svg" alt="dolar" class="icon-dolar">
+      </div>
+    </div>
+
+    <!-- salidas -->
+    <div class="b">
+
+      <div class="amount-total">
+        <div class="tip">
+          <div class="text-tip">Tip Amount</div>
+          <div class="text-person">/ person</div>
+        </div>
+        <div class="calc" id="tip-amount"><span class="calc">$</span>0.00</div>
+      </div>
+
+      <div class="amount-total">
+        <div class="tip">
+          <div class="text-tip">Total</div>
+          <div class="text-person">/ person</div>
+        </div>
+        <div class="calc" id="total-person"><span class="calc">$</span>0.00</div>
+      </div>
+
+      <button class="reset">Reset</button>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

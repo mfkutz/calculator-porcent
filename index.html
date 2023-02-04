@@ -17,11 +17,12 @@
 
   <!-- caja principal -->
   <div class="main">
-
+    
     <!-- entradas -->
     <div class="a">
+      
       <div class="text-title">Bill</div>
-      <input type="text" class="input-amount" placeholder="0" maxlength="20" value="0" id="input-amount">
+      <input type="text" class="input-amount" placeholder="0" maxlength="20" value="0" id="inputAmount">
       <div class="text-title select-tip">Select Tip %</div>
       <div class="btns">
         <button class="btn-porcent five-porcent" id="five-porcent">5%</button>
@@ -40,6 +41,7 @@
         <img src="./images/icon-dollar.svg" alt="dolar" class="icon-dolar">
       </div>
     </div>
+  
 
     <!-- salidas -->
     <div class="b">
@@ -60,7 +62,8 @@
         <div class="calc" id="total-person"><span class="calc">$</span>0.00</div>
       </div>
 
-      <button class="reset">Reset</button>
+      <button class="reset" id="reset" type="reset">Reset</button>
+      
     </div>
   </div>
   <script src="./js/main.js"></script>

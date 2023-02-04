@@ -190,3 +190,109 @@ input[type]:focus {
     top: -21.3rem;
     left: 1rem;
 }
+
+@media (max-width:900px){
+    .main {
+        display: flex;
+        flex-direction: column;
+        min-width: 6rem;
+       /*  background-color: var(--White);
+        padding: 2rem;
+        border-radius: 1rem;
+        gap: 1rem;
+        justify-content: center; */
+    }
+
+    .a {
+
+        padding-left: 1rem;
+        min-width: 6rem;
+    }
+    .b {
+        background-color: var(--Very-dark-cyan);
+        border-radius: 1rem;
+        padding: 1.3rem 2.4rem;
+        min-width: 6rem;
+    }
+
+
+    .amount-total {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: .1rem;
+    }
+
+
+    .reset {
+        /* min-width: 100%; */
+        padding: .5rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        border-radius: .3rem;
+        border: none;
+        background-color: var(--Strong-cyan);
+        font-size: 20px;
+        color: var(--Very-dark-cyan);
+        cursor: pointer;
+    
+    }
+
+    .btn-porcent {
+        width: 80px;
+        padding: .3rem 0;
+        font-size: 24px;
+        color: var(--White);
+        background-color: var(--Very-dark-cyan);
+        border: none;
+        border-radius: .3rem;
+        cursor: pointer;
+    }
+
+    .input-custom {
+        width: 80px;
+        padding: .3rem 0;
+        font-size: 15px;
+        color: var(--Very-dark-cyan);
+        background-color: var(--Very-light-grayish-cyan);
+        border: none;
+        border-radius: .3rem;
+        cursor: pointer;
+        text-align: right;
+    }
+  
+  
+
+    .input-amount {
+        display: flex;
+        max-width: 80%;
+        font-size: 24px;
+        padding: .3rem 1rem;
+        text-align: right;
+        color: var(--Very-dark-cyan);
+        border: none;
+        background-color: var(--Very-light-grayish-cyan);
+        border-radius: .2rem;
+    }
+
+    .input-people {
+        display: flex;
+       max-width: 80%;
+        font-size: 24px;
+        padding: .3rem 1rem;
+        border: none;
+        background-color: var(--Very-light-grayish-cyan);
+        border-radius: .2rem;
+        text-align: right;
+        color: var(--Very-dark-cyan);
+        
+    }
+
+    .calc {
+        font-size: 35px;
+        color: var(--Strong-cyan);
+    }
+    
+}
+
+
